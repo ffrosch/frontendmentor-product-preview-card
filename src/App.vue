@@ -5,6 +5,3 @@ import ProductPreviewCard from './components/ProductPreviewCard.vue'
 <template>
   <ProductPreviewCard />
 </template>
-
-<style scoped>
-</style>
