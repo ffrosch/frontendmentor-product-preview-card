@@ -31,6 +31,7 @@ import ImageProductDesktop from '../assets/image-product-desktop.jpg';
                 <span class="text-neutral-grey line-through">$169.99</span>
             </div>
             <button
+                type="button"
                 class="flex items-center justify-center gap-2 bg-primary-500 hover:bg-primary-700 py-3 px-4 rounded-lg"
             >
                 <img
@@ -42,6 +43,5 @@ import ImageProductDesktop from '../assets/image-product-desktop.jpg';
                 <span class="font-bold">Add to Cart</span>
             </button>
         </div>
-
     </div>
 </template>
