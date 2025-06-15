@@ -5,7 +5,7 @@ import ImageProductDesktop from '../assets/image-product-desktop.jpg';
 </script>
 
 <template>
-    <div class="flex flex-col sm:flex-row max-w-2xl bg-neutral-white rounded-xl overflow-hidden shadow-sm">
+    <div class="flex flex-col sm:flex-row max-w-2xl sm:max-h-[30rem] bg-neutral-white rounded-xl overflow-hidden shadow-sm">
         <picture class="sm:max-w-1/2">
             <source
                 :srcset="ImageProductDesktop"
@@ -27,7 +27,7 @@ import ImageProductDesktop from '../assets/image-product-desktop.jpg';
                 Perfumer-Creator for the House of CHANEL.
             </div>
             <div class="flex items-center gap-4">
-                <span class="text-primary-500 text-3xl font-bold">$149.99</span>
+                <span class="text-primary-500 text-3xl font-bold font-fraunces">$149.99</span>
                 <span class="text-neutral-grey line-through">$169.99</span>
             </div>
             <button
