@@ -10,6 +10,8 @@
   --color-neutral-white: hsl(0, 0%, 100%);
   --font-montserrat: 'Montserrat', sans-serif;
   --font-fraunces: 'Fraunces', serif;
+  --aspect-retro: 4 / 3;
+  --aspect-video-vertical: 9 / 16;
 }
 
 :root {
